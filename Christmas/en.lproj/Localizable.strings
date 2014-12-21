@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Christmas
+
+  Created by Alex Studnicka on 21/12/14.
+  Copyright (c) 2014 Alex Studnicka. All rights reserved.
+*/
+
+"greeting" = "Hello";
+"text_1" = "I heard you like\nChristmas trees.";
+"text_1_sr" = "I heard you like Christmas trees";
+"text_2" = "What about\nmaking one?";
+"text_2_sr" = "What about making one?";
+"text_3" = "   Merry Christmas\nand Happy New Year!\n     - from Alex";
+"spruce_choice" = "spruce, great choice";
+"fir_choice" = "fir, great choice";
+"pine_choice" = "pine, great choice";

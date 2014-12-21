@@ -1,0 +1,30 @@
+
+/* Class = "IBUILabel"; text = "Vyber si druh:"; ObjectID = "3Ff-DQ-rZn"; */
+"3Ff-DQ-rZn.text" = "Vyber si druh:";
+
+/* Class = "IBUILabel"; text = "ozdoby"; ObjectID = "BMD-uc-ISG"; */
+"BMD-uc-ISG.text" = "ozdoby";
+
+/* Class = "IBUILabel"; text = "podstavec"; ObjectID = "OUK-bZ-Xir"; */
+"OUK-bZ-Xir.text" = "podstavec";
+
+/* Class = "IBUIButton"; normalTitle = "Borovice"; ObjectID = "RWB-08-qXB"; */
+"RWB-08-qXB.normalTitle" = "Borovice";
+
+/* Class = "IBUIButton"; normalTitle = "změnit pozadí"; ObjectID = "byK-wl-HMj"; */
+"byK-wl-HMj.normalTitle" = "změnit pozadí";
+
+/* Class = "IBUIButton"; normalTitle = "Jedle"; ObjectID = "gdw-Yd-SVs"; */
+"gdw-Yd-SVs.normalTitle" = "Jedle";
+
+/* Class = "IBUIButton"; normalTitle = "Smrk"; ObjectID = "jEd-T3-DKX"; */
+"jEd-T3-DKX.normalTitle" = "Smrk";
+
+/* Class = "IBUIButton"; normalTitle = "pokračovat >>"; ObjectID = "jL8-fb-qMg"; */
+"jL8-fb-qMg.normalTitle" = "pokračovat >>";
+
+/* Class = "IBUIButton"; normalTitle = "vyfotit"; ObjectID = "jQE-G8-ZBQ"; */
+"jQE-G8-ZBQ.normalTitle" = "vyfotit";
+
+/* Class = "IBUILabel"; text = "dárky"; ObjectID = "sXG-29-XRF"; */
+"sXG-29-XRF.text" = "dárky";

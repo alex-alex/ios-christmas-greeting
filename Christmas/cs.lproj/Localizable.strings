@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Christmas
+
+  Created by Alex Studnicka on 21/12/14.
+  Copyright (c) 2014 Alex Studnicka. All rights reserved.
+*/
+
+"greeting" = "Ahoj";
+"text_1" = "  slyšel jsem, že máš\nrád/a Vánoční stromky.";
+"text_1_sr" = "slyšel jsem, že máš rád Vánoční stromky";
+"text_2" = "  Co takhle\nsi jeden udělat?";
+"text_2_sr" = "Co takhle si jeden udělat?";
+"text_3" = "   Veselé Vánoce\na pohodový nový rok\n     přeje Alex!";
+"spruce_choice" = "smrk, výborná volba";
+"fir_choice" = "jedle, výborná volba";
+"pine_choice" = "borovice, výborná volba";

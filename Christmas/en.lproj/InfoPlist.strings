@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Christmas
+
+  Created by Alex Studnicka on 21/12/14.
+  Copyright (c) 2014 Alex Studnicka. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Christmas";
+"CFBundleName" = "Christmas";

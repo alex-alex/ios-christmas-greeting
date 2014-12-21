@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3FF4DE1A3623E000398A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FF4DD1A3623E000398A79 /* AppDelegate.swift */; };
+		FA3FF4E01A3623E100398A79 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3FF4DF1A3623E100398A79 /* art.scnassets */; };
+		FA3FF4E21A3623E100398A79 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FF4E11A3623E100398A79 /* GameViewController.swift */; };
+		FA3FF4E51A3623E100398A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3FF4E31A3623E100398A79 /* Main.storyboard */; };
+		FA3FF4E71A3623E100398A79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3FF4E61A3623E100398A79 /* Images.xcassets */; };
+		FA3FF4EA1A3623E100398A79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FF4E81A3623E100398A79 /* LaunchScreen.xib */; };
+		FA3FF5021A36241E00398A79 /* FantasticPete.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3FF5011A36241E00398A79 /* FantasticPete.ttf */; };
+		FA3FF5041A36283600398A79 /* gunny.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3FF5031A3626E500398A79 /* gunny.ttf */; };
+		FA60EA331A473B1600366C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA60EA351A473B1600366C39 /* InfoPlist.strings */; };
+		FA60EA3D1A473CBA00366C39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA60EA3F1A473CBA00366C39 /* Localizable.strings */; };
+		FAE4C1741A37424F00F07308 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = FAE4C1731A37424F00F07308 /* Sounds */; };
+		FAE4C1791A37570E00F07308 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4C1781A37570E00F07308 /* AddressBook.framework */; };
+		FAE4C1801A37581800F07308 /* JBDeviceOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4C17F1A37581800F07308 /* JBDeviceOwner.m */; };
+		FAE4C1831A375BAB00F07308 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4C1821A375BAB00F07308 /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA13FCB61A398FC500721750 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FA13FCB71A398FC500721750 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		FA13FCB91A398FDA00721750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FA13FCBB1A398FE100721750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FA3FF4D81A3623E000398A79 /* Christmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Christmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3FF4DD1A3623E000398A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3FF4DF1A3623E100398A79 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FA3FF4E11A3623E100398A79 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA3FF4E41A3623E100398A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3FF4E61A3623E100398A79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA3FF4E91A3623E100398A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA3FF5011A36241E00398A79 /* FantasticPete.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FantasticPete.ttf; sourceTree = "<group>"; };
+		FA3FF5031A3626E500398A79 /* gunny.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gunny.ttf; sourceTree = "<group>"; };
+		FA60EA341A473B1600366C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA60EA361A473B1700366C39 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA60EA371A473C0200366C39 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA60EA3E1A473CBA00366C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA60EA401A473CBC00366C39 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FAE4C1731A37424F00F07308 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = Resources/Sounds; sourceTree = SOURCE_ROOT; };
+		FAE4C1781A37570E00F07308 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FAE4C17A1A37573100F07308 /* Christmas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Christmas-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAE4C17E1A37581800F07308 /* JBDeviceOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBDeviceOwner.h; path = JBDeviceOwner/JBDeviceOwner.h; sourceTree = "<group>"; };
+		FAE4C17F1A37581800F07308 /* JBDeviceOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBDeviceOwner.m; path = JBDeviceOwner/JBDeviceOwner.m; sourceTree = "<group>"; };
+		FAE4C1811A375BA500F07308 /* Christmas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Christmas.entitlements; sourceTree = "<group>"; };
+		FAE4C1821A375BAB00F07308 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3FF4D51A3623E000398A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4C1791A37570E00F07308 /* AddressBook.framework in Frameworks */,
+				FAE4C1831A375BAB00F07308 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3FF4CF1A3623E000398A79 = {
+			isa = PBXGroup;
+			children = (
+				FA3FF4DA1A3623E000398A79 /* Christmas */,
+				FA3FF4FF1A3623F500398A79 /* Resources */,
+				FA3FF4DB1A3623E000398A79 /* Supporting Files */,
+				FAE4C1751A3756FE00F07308 /* Extensions */,
+				FA3FF4D91A3623E000398A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3FF4D91A3623E000398A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FF4D81A3623E000398A79 /* Christmas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3FF4DA1A3623E000398A79 /* Christmas */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FF4DD1A3623E000398A79 /* AppDelegate.swift */,
+				FA3FF4E11A3623E100398A79 /* GameViewController.swift */,
+				FAE4C17A1A37573100F07308 /* Christmas-Bridging-Header.h */,
+			);
+			path = Christmas;
+			sourceTree = "<group>";
+		};
+		FA3FF4DB1A3623E000398A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FF4E81A3623E100398A79 /* LaunchScreen.xib */,
+				FA3FF4E31A3623E100398A79 /* Main.storyboard */,
+				FA3FF4E61A3623E100398A79 /* Images.xcassets */,
+				FAE4C1811A375BA500F07308 /* Christmas.entitlements */,
+				FA60EA371A473C0200366C39 /* Info.plist */,
+				FA60EA3F1A473CBA00366C39 /* Localizable.strings */,
+				FA60EA351A473B1600366C39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = Christmas;
+			sourceTree = "<group>";
+		};
+		FA3FF4FF1A3623F500398A79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C1731A37424F00F07308 /* Sounds */,
+				FA3FF5001A36241E00398A79 /* Fonts */,
+				FA3FF4DF1A3623E100398A79 /* art.scnassets */,
+			);
+			name = Resources;
+			path = Christmas;
+			sourceTree = "<group>";
+		};
+		FA3FF5001A36241E00398A79 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FF5031A3626E500398A79 /* gunny.ttf */,
+				FA3FF5011A36241E00398A79 /* FantasticPete.ttf */,
+			);
+			name = Fonts;
+			path = Resources/Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		FAE4C1751A3756FE00F07308 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C17D1A3757FF00F07308 /* JBDeviceOwner */,
+				FAE4C1821A375BAB00F07308 /* CloudKit.framework */,
+				FAE4C1781A37570E00F07308 /* AddressBook.framework */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAE4C17D1A3757FF00F07308 /* JBDeviceOwner */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C17E1A37581800F07308 /* JBDeviceOwner.h */,
+				FAE4C17F1A37581800F07308 /* JBDeviceOwner.m */,
+			);
+			name = JBDeviceOwner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3FF4D71A3623E000398A79 /* Christmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3FF4F91A3623E100398A79 /* Build configuration list for PBXNativeTarget "Christmas" */;
+			buildPhases = (
+				FA3FF4D41A3623E000398A79 /* Sources */,
+				FA3FF4D51A3623E000398A79 /* Frameworks */,
+				FA3FF4D61A3623E000398A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Christmas;
+			productName = Christmas;
+			productReference = FA3FF4D81A3623E000398A79 /* Christmas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3FF4D01A3623E000398A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Studnicka";
+				TargetAttributes = {
+					FA3FF4D71A3623E000398A79 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = FDEPQUD75A;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FA3FF4D31A3623E000398A79 /* Build configuration list for PBXProject "Christmas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				cs,
+			);
+			mainGroup = FA3FF4CF1A3623E000398A79;
+			productRefGroup = FA3FF4D91A3623E000398A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3FF4D71A3623E000398A79 /* Christmas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3FF4D61A3623E000398A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3FF4EA1A3623E100398A79 /* LaunchScreen.xib in Resources */,
+				FA60EA331A473B1600366C39 /* InfoPlist.strings in Resources */,
+				FA3FF4E71A3623E100398A79 /* Images.xcassets in Resources */,
+				FA3FF4E01A3623E100398A79 /* art.scnassets in Resources */,
+				FA60EA3D1A473CBA00366C39 /* Localizable.strings in Resources */,
+				FA3FF5021A36241E00398A79 /* FantasticPete.ttf in Resources */,
+				FA3FF5041A36283600398A79 /* gunny.ttf in Resources */,
+				FA3FF4E51A3623E100398A79 /* Main.storyboard in Resources */,
+				FAE4C1741A37424F00F07308 /* Sounds in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3FF4D41A3623E000398A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3FF4E21A3623E100398A79 /* GameViewController.swift in Sources */,
+				FA3FF4DE1A3623E000398A79 /* AppDelegate.swift in Sources */,
+				FAE4C1801A37581800F07308 /* JBDeviceOwner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA3FF4E31A3623E100398A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3FF4E41A3623E100398A79 /* Base */,
+				FA13FCB71A398FC500721750 /* cs */,
+				FA13FCBB1A398FE100721750 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3FF4E81A3623E100398A79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3FF4E91A3623E100398A79 /* Base */,
+				FA13FCB61A398FC500721750 /* cs */,
+				FA13FCB91A398FDA00721750 /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FA60EA351A473B1600366C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA60EA341A473B1600366C39 /* en */,
+				FA60EA361A473B1700366C39 /* cs */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA60EA3F1A473CBA00366C39 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA60EA3E1A473CBA00366C39 /* en */,
+				FA60EA401A473CBC00366C39 /* cs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3FF4F71A3623E100398A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3FF4F81A3623E100398A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3FF4FA1A3623E100398A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Christmas/Christmas.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Extensions",
+				);
+				INFOPLIST_FILE = Christmas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Christmas/Christmas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3FF4FB1A3623E100398A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Christmas/Christmas.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Extensions",
+				);
+				INFOPLIST_FILE = Christmas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Christmas/Christmas-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3FF4D31A3623E000398A79 /* Build configuration list for PBXProject "Christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3FF4F71A3623E100398A79 /* Debug */,
+				FA3FF4F81A3623E100398A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3FF4F91A3623E100398A79 /* Build configuration list for PBXNativeTarget "Christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3FF4FA1A3623E100398A79 /* Debug */,
+				FA3FF4FB1A3623E100398A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3FF4D01A3623E000398A79 /* Project object */;
+}
